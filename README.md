@@ -72,13 +72,12 @@ Vous recevrez la réponse dans le mode suivant :
         
 ```
 
-Pour accéder à une page précise de l'api, vous pouvez rajouter le paramètre suivant :
-?page={numéro de la page souhaité} 
+Pour accéder à une page précise de l'api, vous pouvez rajouter le paramètre suivant :<br>
+<strong>?page={numéro de la page souhaité} </strong>
 
-exemple : 
-```
-https://api.cities-api.com/v1/cities?page=2
-```
+>exemple : 
+>https://api.cities-api.com/v1/cities?page=2
+
 
 
 ## Récupérer une commune via son id (GET)
@@ -90,10 +89,9 @@ accessible en méthode <span style="color:green;"> GET</span> exclusivement :
 ```
 https://127.0.0.1/api/cities/{id}
 ```
-exemple : 
-```
-https://127.0.0.1/api/cities/7
-```
+>exemple : 
+>https://127.0.0.1/api/cities/7
+
 
 
 Vous recevrez la réponse de la manière suivante : 
